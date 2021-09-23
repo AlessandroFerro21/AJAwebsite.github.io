@@ -1,0 +1,157 @@
+body {font-family: "Times New Roman", Georgia, serif;}
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Playfair Dispay";
+            letter-spacing: 5px;
+        }
+
+.bodytxt{
+    font-size: 16px;
+}
+
+.navbar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    background-color: #ebeced;
+    color: black;
+}
+
+.heading1{
+    text-align: center;
+    font-size: 24px;
+}
+
+.heading3{
+    text-align: center;
+    font-size: 20px;
+    color: #cfd0d1;
+}
+
+hr{
+    width: 75%;
+}
+
+/* Card and Modal style */
+
+.card-title{
+    font-family: "Playfair Dispaly";
+    font-size: 28px;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.card-text{
+    font-family: "Times New Roman", Georgia, serif;
+    font: 23px;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.btn1{
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    padding: 22px;
+    border-color: teal;
+    position: absolute;
+}
+
+.btn1:hover{
+    color: white;
+}
+
+.modal-header{
+   background-color: #ebeced;
+   color: black;
+}
+
+.modal-title{
+    font-family: "Playfair Dispaly";
+    font-size: 28px;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.modal-text{
+     font-family: "Times New Roman", Georgia, serif;
+    font: 21px;
+    text-align: center;
+}
+
+
+/* style for the contact form */
+input[type=text], [type=email], select, subject, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.textarea{
+    text-align: center;
+}
+
+input[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+.contactform{
+    border-radius: 5px;
+    background-color: #ebeced;
+    padding: 20px;
+}
+
+.submit{
+    text-align: center;
+}
+
+.submitbutton{
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    padding: 22px;
+    border-color: teal;
+}
+
+footer{
+    background-color: teal;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footertitle{
+    font-size: 24px;
+}
+
+.footertxt{
+    font-size: 16px;
+    padding: 12px;
+}
+
+.policytxt{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    
+}
